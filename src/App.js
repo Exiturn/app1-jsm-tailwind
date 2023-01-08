@@ -18,7 +18,9 @@ const App = () => {
         <Possibility />
         <CTA />
         <Blog />
-        <Footer />
+        <div className='gradient__bg'>
+          <Footer />
+        </div>
       </div>
     </div>
   );

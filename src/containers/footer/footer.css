@@ -1,0 +1,17 @@
+.gpt3__footer {
+    @apply flex flex-col justify-center items-center
+}
+
+.gpt3__footer-header {
+    @apply w-full text-center mb-[3rem] mt-[5rem] max-w-3xl
+}
+
+.gpt3__footer-header h1 {
+    @apply font-bold text-[62px] leading-[70px] tracking-[-0.04rem]
+}
+
+.gpt3__footer-btn {
+    @apply flex-1 flex border-white border-2 text-white p-5 cursor-pointer
+    mb-[12rem]
+}
+
