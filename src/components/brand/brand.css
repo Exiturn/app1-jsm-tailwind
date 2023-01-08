@@ -1,0 +1,15 @@
+.gpt3__brand {
+    @apply flex flex-row flex-wrap justify-center items-center w-full
+    gap-x-10 bg-blend-screen
+}
+
+.gpt3__brand div {
+    @apply flex-1 max-w-[150px] min-w-[120px] m-4 flex justify-center
+    items-center
+}
+
+@media screen and (max-width: 320px) {
+    .gpt3__brand {
+        @apply py-[0.5rem]
+    }
+}

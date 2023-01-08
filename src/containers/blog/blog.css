@@ -1,0 +1,77 @@
+.gpt3__blog {
+    @apply flex flex-col
+}
+
+.gpt3__blog-header {
+    @apply max-w-[40rem] mb-[6rem]
+}
+
+.gpt3__blog-header h1 {
+    @apply font-bold text-[62px] leading-[75px] tracking-[-0.04rem]
+}
+
+.gpt3__blog-container {
+    @apply flex flex-row
+}
+
+.gpt3__blog-container_groupA {
+    @apply flex-[0.75] mr-[2rem]
+}
+
+.gpt3__blog-container_groupB {
+    @apply flex-[1] grid grid-rows-2 grid-cols-2 gap-[1.5rem]
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__blog-container {
+        @apply flex-col-reverse
+    }
+
+    .gpt3__blog-container_groupA {
+        @apply mr-0
+    }
+
+    .gpt3__blog-container_groupA .gpt3__blog-container_article{
+        @apply w-[48%]
+    }
+    
+    .gpt3__blog-container_groupB {
+        @apply mb-[2rem]
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gpt3__blog-container_groupB {
+        @apply grid-cols-1
+    }
+
+    .gpt3__blog-container_groupA .gpt3__blog-container_article {
+        @apply w-full
+    }
+
+    .gpt3__blog-container_groupA .gpt3__blog-container_article-img {
+        @apply w-full h-full
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .gpt3__blog-header {
+        @apply mb-[4rem]
+    }
+    
+    .gpt3__blog-header h1 {
+        @apply text-[52px] leading-[50px]
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .gpt3__blog-header h1 {
+        @apply text-[45px] leading-[50px]
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gpt3__blog-header h1 {
+        @apply text-[40px] leading-[50px]
+    }
+}

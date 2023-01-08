@@ -1,0 +1,130 @@
+.gpt3__header {
+    @apply flex flex-row
+}
+
+.gpt3__header-content {
+    @apply flex-1 flex justify-center items-start flex-col mr-20
+}
+
+.gpt3__header-content h1 {
+    @apply font-bold text-7xl leading-[75px] tracking-tighter self-start
+}
+
+.gpt3__header-content p {
+    @apply font-light text-[20px] leading-[27px] mt-7
+}
+
+.gpt3__header-content__input {
+    @apply flex flex-row mt-7 w-full
+}
+
+.gpt3__header-content__input input {
+    @apply bg-footer px-6 py-3 rounded-l-md w-full text-[17px] leading-[27px] text-emailText font-light border-2 outline-none border-footer max-h-[50px]
+}
+
+.gpt3__header-content__input button {
+    @apply bg-brightOrange text-white px-4 rounded-r-md max-h-[50px] font-normal w-3/12
+    leading-[18px]
+}
+
+.gpt3__header-content__people {
+    @apply flex flex-row mt-8 justify-start items-center text-center w-full
+}
+
+.gpt3__header-content__people img {
+    @apply w-40 h-10;
+}
+
+.gpt3__header-content__people p {
+    @apply mt-0 ml-4 font-light text-[16px] leading-[24px] text-white
+}
+
+.gpt3__header-image {
+    @apply flex-1 flex justify-center items-center
+}
+
+.gpt3__header-image img {
+    @apply w-full h-full 
+}
+
+@media screen and (max-width: 960px) {
+    .gpt3__header { 
+        @apply flex-col
+    }
+
+    .gpt3__header-content {
+        @apply mb-12 mr-2
+    }
+
+    .gpt3__header-content__people p {
+        @apply leading-[20px]
+    }
+
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
+        @apply text-[16px] leading-[20px]
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__header {
+        @apply py-8 px-12
+    }
+    
+    .gpt3__header-content {
+        @apply mr-0
+    }
+
+    .gpt3__header-content h1 {
+        @apply text-[55px] leading-[57px]
+    }
+
+    .gpt3__header-content p {
+        @apply text-[18px] leading-[25px]
+    }
+
+    .gpt3__header-content__people {
+        @apply flex-col
+    }
+
+    .gpt3__header-content__people p {
+        @apply my-2 text-sm
+    }
+
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
+        @apply text-[14px]
+    }
+
+    .gpt3__header-content__input button {
+        @apply pl-2
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .gpt3__header-content h1 {
+        @apply text-[38px] leading-[40px]
+    }
+
+    .gpt3__header-content p {
+        @apply text-[16px] leading-[21px]
+    }
+
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
+        @apply text-[13px] leading-[16px]
+    }
+
+    .gpt3__header-content__input button {
+        @apply pl-3 text-[11px]
+    }
+
+    .gpt3__header-content__people img {
+        @apply w-28 h-8
+    }
+
+    .gpt3__header-content__people p {
+        @apply text-[13px] leading-[16px] ml-0
+    }
+}

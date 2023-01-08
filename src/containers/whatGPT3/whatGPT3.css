@@ -1,0 +1,111 @@
+.gpt3__whatgpt3 {
+    @apply flex flex-col p-8 bg-footer drop-shadow-lg;
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.gpt3__whatgpt3-feature {
+    @apply flex
+}
+
+.gpt3__whatgpt3-feature .gpt3__features-containers__feature {
+    @apply m-0
+}
+
+.gpt3__whatgpt3-feature .gpt3__features-containers__feature-text {
+    @apply max-w-[700px]
+}
+
+.gpt3__whatgpt3-heading {
+    @apply flex flex-row justify-between items-center mt-16 mb-8
+}
+
+.gpt3__whatgpt3-heading h1 {
+    @apply text-3xl font-extrabold leading-[45px] max-w-[450px]
+}
+
+.gpt3__whatgpt3-heading p {
+    @apply text-[16px] font-normal leading-[30px] cursor-pointer text-subtext tracking-wide
+}
+
+.gpt3__whatgpt3-container {
+    @apply flex flex-wrap flex-row mt-8
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container__feature {
+    @apply flex-1 min-w-[210px] flex-col;
+    display: unset;
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+    @apply mt-[0.5rem]
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__whatgpt3-heading {
+        @apply flex-col items-start mb-0
+    }
+
+    .gpt3__whatgpt3-heading p {
+        @apply mt-[1rem]
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+        @apply flex-col
+    }
+
+    .gpt3__features-container__feature {
+        @apply ml-0
+    }
+
+    .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+        @apply mt-[0.5rem]
+    }
+
+    .gpt3__whatgpt3-heading h1 {
+        @apply text-[28px] leading-[40px]
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+        @apply my-4 mx-0 min-w-full
+    }
+
+    .gpt3__features-container_feature-text p {
+        @apply leading-[25px] text-[14px]
+    }
+
+    .gpt3__whatgpt3-heading h1 {
+        @apply leading-[35px]
+    }
+
+    .gpt3__whatgpt3-heading p {
+        @apply mt-6
+    }
+}
+
+/* Shout out to the galaxy fold users out there */
+@media screen and (max-width: 280px) {
+    .gpt3__features-container_feature-text p {
+        @apply leading-[19px]
+    }
+}

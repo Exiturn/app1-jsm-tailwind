@@ -1,0 +1,72 @@
+.gpt3__cta-banner {
+    @apply flex flex-row justify-between items-center rounded-md py-[3rem]
+    px-10;
+    background: var(--gradient-bar);
+}
+
+.gpt3__cta-banner__content {
+    @apply flex flex-col justify-center items-start
+}
+
+.gpt3__cta-banner__content h3, h1{
+    @apply text-black
+}
+
+.gpt3__cta-banner__content h3 {
+    @apply font-medium text-[14px] leading-[30px] cursor-pointer
+}
+
+.gpt3__cta-banner__content h1 {
+    @apply font-extrabold text-[24px] leading-[45px]
+}
+
+.gpt3__cta-banner__button button {
+    @apply bg-black px-14 py-4 rounded-full text-[18px]
+    font-bold leading-[30px] text-white
+}
+
+@media screen and (max-width: 1024px) {
+    .gpt3__cta-banner__button button {
+        @apply px-[2.5rem] py-[0.75rem]
+    }
+
+    .gpt3__cta-banner__content h1{
+        @apply leading-[33px] mt-2
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gpt3__cta-banner {
+        @apply flex-col
+    }
+
+    .gpt3__cta-banner__content h1{
+        @apply leading-[35px]
+    }
+
+    .gpt3__cta-banner__button {
+        @apply mt-5
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .gpt3__cta-banner__content h1{
+        @apply leading-[32px]
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .gpt3__cta-banner__content h1{
+        @apply leading-[30px]
+    }
+
+    .gpt3__cta-banner__content h3{
+        @apply leading-[20px]
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .gpt3__cta-banner__button button {
+        @apply leading-[25px]
+    }
+}
