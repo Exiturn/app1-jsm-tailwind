@@ -15,3 +15,74 @@
     mb-[12rem]
 }
 
+.gpt3__footer-links {
+    @apply flex justify-between flex-wrap 
+    flex-row text-left mx-[6rem] gap-[2rem];
+    align-items: flex-start;
+}
+
+.gpt3__footer-links div {
+    @apply w-[250px] m-[1rem]
+}
+
+.gpt3__footer-links_logo p {
+    @apply text-[12px] leading-[14px] text-white mt-[1.5rem]
+    w-[75%] 
+}
+
+.gpt3__footer-links_div h4 {
+    @apply text-[14px] leading-[16px] text-white font-extrabold
+    mb-[3rem]
+}
+
+.gpt3__footer-links_div p {
+    @apply text-[12px] leading-[14px] text-white my-[1.5rem] font-light
+    cursor-pointer
+}
+
+.gpt3__footer-copyright p {
+    @apply text-[12px] leading-[14px] text-white mb-[1rem]
+    mt-[4rem]
+}
+
+
+@media screen and (max-width: 768px) {
+    .gpt3__footer-header h1 {
+        @apply text-[50px] leading-[60px]
+    }
+
+    .gpt3__footer-links_logo {
+        @apply flex flex-col justify-center items-center 
+    }
+
+    .gpt3__footer-links_logo p {
+        @apply text-center mt-[1rem]
+    }
+
+    .gpt3__footer-links div {
+        @apply flex flex-col justify-center items-center m-0
+    }
+
+    .gpt3__footer-links_div p {
+        @apply mt-0
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .gpt3__footer-header h1 {
+        @apply text-[52px] leading-[50px]
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .gpt3__footer-header h1 {
+        @apply text-[45px] leading-[50px]
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gpt3__footer-header h1 {
+        @apply text-[40px] leading-[50px]
+    }
+}
