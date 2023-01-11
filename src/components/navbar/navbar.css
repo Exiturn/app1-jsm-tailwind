@@ -11,7 +11,7 @@
 }
 
 .gpt3__navbar-links_logo img {
-    @apply w-[62.56px] h-[16.02px] 
+    @apply w-[62.56px] h-[16.02px]
 }
 
 .gpt3__navbar-links_container {
@@ -24,16 +24,13 @@
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
-    @apply bg-brightOrange rounded py-2 px-6 text-white border-0 outline-none
-    cursor-pointer
+    @apply bg-brightOrange rounded py-2 px-6 text-white border-0 outline-none cursor-pointer
 }
 
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
-.gpt3__navbar-menu_container p
-{
-    @apply text-white font-normal text-base leading-6 capitalize
-    mx-4 cursor-pointer
+.gpt3__navbar-menu_container p {
+    @apply text-white font-normal text-base leading-6 capitalize mx-4 cursor-pointer;
 }
 
 .gpt3__navbar-menu {
@@ -45,8 +42,7 @@
 }
 
 .gpt3__navbar-menu_container {
-    @apply flex justify-end items-end flex-col text-end bg-footer p-8 absolute
-    top-[40px] right-0 mt-4 min-w-[210px] rounded shadow
+    @apply flex justify-end items-end flex-col text-end bg-footer p-8 absolute top-[40px] right-0 mt-4 min-w-[210px] rounded shadow
 }
 
 .gpt3__navbar-menu_container p {

@@ -1,10 +1,18 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Feature } from '../../components';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './whatGPT3.css';
 
 const WhatGPT3 = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className='gpt3__whatgpt3 section__margin' id="wgpt3">
+    <div className='gpt3__whatgpt3 section__margin' id="wgpt3" data-aos="fade-up" data-aos-delay="100ms" data-aos-duration="1000">
       <div className="gpt3__whatgpt3-feature">
         <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."/>
       </div>
