@@ -14,10 +14,10 @@ const Possibility = () => {
 
   return (
     <div className='gpt3__possibility section__margin-possibility' id='possibility'>
-      <div className='gpt3__possibility-image' data-aos="fade-right" data-aos-delay="350">
+      <div className='gpt3__possibility-image' data-aos="fade-right" data-aos-delay="350" data-aos-duration="800">
         <img src={possibility} alt="possibility" />
       </div>
-      <div className='gpt3__possibility-content' data-aos="fade-left" data-aos-delay="350"> 
+      <div className='gpt3__possibility-content' data-aos="fade-left" data-aos-delay="350" data-aos-duration="800"> 
         <p className='gpt3__possibility-content__subtext-1'>
           Request Early Access to Get Started
         </p>
