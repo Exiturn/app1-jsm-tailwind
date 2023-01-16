@@ -1,6 +1,6 @@
 # GPT-3 Practice React App
 
-This is a website application that is based on one of the
+This is a fully responsive, modern UI website application that is based on one of the
 challenge projects from JavaScript Mastery on Youtube.
 Built with React.js and styled with TailwindCSS.  
   
