@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# GPT-3 Practice React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a website application that is based on one of the
+challenge projects from JavaScript Mastery on Youtube.
+Built with React.js and styled with TailwindCSS.  
+  
+A figma design was provided along with the assets and
+colour scheme.
 
-## Available Scripts
+# Table of Contents
 
-In the project directory, you can run:
+ - [Overview](#Overview)
+    - [Screenshots](#Screenshots)
+    - [Links](#Links)
+ - [My Process](#My-Process)
+    - [Built using](#Built-Using)
+    - [What I learned](#What-I-Learned)
+ - [Author](#Author)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshots
 
-### `npm test`
+![](https://raw.githubusercontent.com/Exiturn/app1-jsm-tailwind/master/public/screenshots/gpt3-home-screenshot.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![](https://github.com/Exiturn/app1-jsm-tailwind/blob/master/public/screenshots/gpt3-home-mobile-screenshot.PNG?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Project Code: [found on GitHub](https://github.com/Exiturn/app1-jsm-tailwind)
+- Live Site: [hosted on Vercel](https://app1-jsm-tailwind.vercel.app/#wgpt3)
+- Figma Design can be found [here]()
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My Process
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [AOS Library](https://michalsnik.github.io/aos/)
+- Flexbox & CSS Grid
+- Mobile-first workflow
+- BEM Methodology
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I Learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The new skills I learned in this project was the implementation
+of the [AOS JS library](https://michalsnik.github.io/aos/). While
+the original figma design did not specify transitions/animations, I wanted
+to add a little extra to the project and research on 
+javascript animation methods.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Working with React and TailwindCSS was not new to me
+however this was great practice for putting Figma designs
+into code.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_Github_ [@ExiturnM](https://github.com/Exiturn)  
+_LinkedIn_ [Bryan Magistrado](https://www.linkedin.com/in/bryan-magistrado/)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
