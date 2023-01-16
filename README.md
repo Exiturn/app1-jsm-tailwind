@@ -31,7 +31,7 @@ colour scheme.
 
 - Project Code: [found on GitHub](https://github.com/Exiturn/app1-jsm-tailwind)
 - Live Site: [hosted on Vercel](https://app1-jsm-tailwind.vercel.app/#wgpt3)
-- Figma Design can be found [here]()
+- Figma Design can be found [here](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDN1LXVqcHBVVU5NdmtkeU0tcGxpczdpZkFCZ3xBQ3Jtc0tsb1BNTXNDNVVQNlN5NmNlWUlBTzNvN2NtcnJDZ18wSGJRRWwzMTExN3NwM0paMUFmVWQxaWVxRkVCUDl6X1NPdGpOM2xSNjFOMy1JNTBEdFVvbnctUWExMTBWNWt4dWZOcmxJbFkyY0k2dTFoLTRWRQ&q=https%3A%2F%2Fwww.figma.com%2Ffile%2Flz9lLpFHMxHm2odnwM3R0z%2Fgpt3&v=F627pKNUCVQ)
 
 ## My Process
 
