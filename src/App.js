@@ -7,7 +7,7 @@ import './App.css'
 const App = () => {
 
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <div className="App">
         <div className="gradient__bg">
           <Navbar />
